@@ -1,0 +1,29 @@
+/* แถบไม่ได้ใช้แล้วเอามาเฉยๆอิอิ */
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin: 12px auto 0;
+    background-color: #212529;
+}
+
+.profile-photo {
+    max-height: 360px;
+    object-fit: cover;
+}
+
+.music-card {
+    max-width: 800px;
+}
+
+.reflection-box {
+    padding: 16px;
+    border-left: 3px solid #212529;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
